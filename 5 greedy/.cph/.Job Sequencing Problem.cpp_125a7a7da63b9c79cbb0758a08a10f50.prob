@@ -1,0 +1,1 @@
+{"name":"Local: Job Sequencing Problem","url":"d:\\acad\\sem 10 Placement\\Coding\\5 greedy\\Job Sequencing Problem.cpp","tests":[{"id":1716990400579,"input":"1\n4\n1 4 20 2 1 10 3 1 40 4 1 30","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\acad\\sem 10 Placement\\Coding\\5 greedy\\Job Sequencing Problem.cpp","group":"local","local":true}

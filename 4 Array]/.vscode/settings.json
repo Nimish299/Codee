@@ -1,0 +1,15 @@
+{
+  "files.associations": {
+    "cmath": "cpp",
+    "complex": "cpp",
+    "cstdlib": "cpp",
+    "*.tcc": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "deque": "cpp",
+    "vector": "cpp",
+    "ostream": "cpp",
+    "iostream": "cpp"
+  }
+}

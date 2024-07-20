@@ -1,0 +1,39 @@
+#include <bits/stdc++.h>
+using namespace std;
+vector<int> minHeap(int n, vector<vector<int>> &q)
+{
+    // Write your code here.
+    vector<int> ans;
+    priority_queue<int, vector<int>, greater<int>> pq;
+    int i = 0;
+    while (n--)
+    {
+        if (q[i].size() == 1)
+        {
+            ans.push_back(pq.top());
+            pq.pop();
+        }
+        else if (q[i].size() == 2)
+        {
+            pq.push(q[i][1]);
+        }
+        i++;
+    }
+
+    return ans;
+}
+
+int main()
+{
+
+    cout << "cc" << endl;
+    int a, v;
+    cin >> a;
+    cin >> v;
+    int c;
+    cin >> c;
+    if (c == 1)
+        cout << a + v;
+    else
+        cout << a - v;
+}

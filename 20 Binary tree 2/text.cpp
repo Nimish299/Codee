@@ -16,4 +16,6 @@ int main()
 {
 
     cout << "cc" << endl;
+
+    cout<<"ni";
 }
